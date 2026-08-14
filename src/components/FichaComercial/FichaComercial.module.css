@@ -3,30 +3,47 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 32px;
-  background-color: #eef2f6;
+  background-color: #eeeeee;
 }
 
 .card {
-  width: 100%;
-  max-width: 700px;
-  padding: 32px;
-  background-color: #ffffff;
-  color: #1f2937;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
 }
 
 .card h1 {
-  margin: 0 0 10px;
-  color: #111827;
-  font-size: 30px;
-  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.card p {
-  margin: 0;
-  color: #6b7280;
-  font-size: 16px;
-  line-height: 1.5;
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.card label {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card input {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+.card button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0066cc;
+  color: white;
+  cursor: pointer;
 }
